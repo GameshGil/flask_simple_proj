@@ -42,24 +42,9 @@ coverage.xml
 .pytest_cache/
 cover/
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
 # Flask stuff:
 instance/
 .webassets-cache
-
-# PyBuilder
-.pybuilder/
-target/
-
-# IPython
-profile_default/
-ipython_config.py
-
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
