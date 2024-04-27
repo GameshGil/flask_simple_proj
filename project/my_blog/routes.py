@@ -10,12 +10,6 @@ from my_blog.models import db, User, Post
 from my_blog.forms import RegistrationForm, LoginForm
 
 
-@login_manager.user_loader
-def load_user(user_id):
-    user = db.session.get(User, user_id)
-    return user
-
-
 @app.route('/')
 def index():
     """Index page for Flask app."""
