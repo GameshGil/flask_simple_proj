@@ -12,4 +12,4 @@ class Config:
     STATIC_FOLDER = 'static'
     TEMPLATES_FOLDER = 'templates'
 
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///project_db.db'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///my_blog//db//project_db.db'
